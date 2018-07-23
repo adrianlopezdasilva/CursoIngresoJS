@@ -9,27 +9,68 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 
  */
 function CalcularPrecio () 
-{  
-  var precio;
-  var cantidad;
-  var marca;
-  var precioDescuento;
-
-   
-  precio=35;
-  precio=parseInt(precio);
-  cantidad=parseInt(cantidad);
-
-
-  cantidad=document.getElementById('Cantidad').value;
-  precioDescuento=document.getElementById('precioDescuento').value;
-  marca=document.getElementById('Marca').value;
- 
-  if(cantidad>=6) {
-
-  	  document.getElementById('precioDescuento').value+(precio+cantidad) *50/100;
-
-		      }
-
+{
  	
 }
+/* var precio =35i
+   var marca; cantidadLamparas, precioFinal, ingresosBrutos, descuento,msg
+
+   a) if(cantidadLamparas>=6){
+   descuento=precioDescuento*0,5;
+   }
+
+   b) Else if (cantidadLamparas==5 && marca=="argenluz") {
+	
+	descuento=precioDescuento*0,4;
+   }
+
+    else if (cantidad==5){
+	
+	descuento=precioDescuento*03;
+   }
+
+   c) else if(cantidadlamparas==4){ (marca=="argenluz" || "felipeLamparas"))
+   descuento=precioDescuento*0,20;
+   }
+   else{
+	descuento=precioDescuento*0,2
+   }
+   d)
+   else if (cantidadLamparas==55 && marca=felipeLamparas){
+	
+	descuento=precioDescuento+0,1
+}
+
+else if (cantidadLamparas==3 && marca=argenluz) {
+
+	descuento=precioDescuento*0,15;
+   }
+   else if {cantidadlamparas==3){
+	
+	descuento=precioDescuento*0,05
+   }
+}
+else{
+	
+	desceunto=0;
+} 
+
+precioFinal= precioDescuento - descuento;
+
+
+if(final>120){
+	
+precioFinal=precioFinal*0,1;
+
+precioFinal=
+
+msg=El precio es + precioFinal+ {}
+
+
+}
+
+else {
+	msg="El precio es"+ precioFinal;
+}
+
+alert(msg);
